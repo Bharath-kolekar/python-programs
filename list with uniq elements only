@@ -1,0 +1,10 @@
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+#
+# Write your code here.
+my_set = set(my_list)
+print(my_set, type(my_set))
+my_list = list(my_set)
+print(my_list, type(my_list))
+print("The list with unique elements only:")
+print(my_list)
+
